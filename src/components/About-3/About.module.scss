@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  max-width: 1296px;
+  min-height: 394px;
+  width: 100%;
+  border-top: 2px solid #f95707;
+  border-bottom: 2px solid #f95707;
+  padding: 41px 0 44px;
+  justify-content: space-between;
+}
+.title {
+  font-weight: 600;
+  font-size: 42px;
+  text-align: start;
+  max-width: 297px;
+  width: 100%;
+}
+
+.stepsList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 746px;
+  width: 100%;
+  justify-content: space-between;
+}
+.stepsItem {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+}

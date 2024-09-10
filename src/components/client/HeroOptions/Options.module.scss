@@ -1,0 +1,60 @@
+.optionsButtonsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.optionsButtons {
+  display: flex;
+  gap: 10px;
+
+  flex-wrap: wrap;
+}
+.optionBtn {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f95707;
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 12px 32px;
+  height: 47px;
+  text-wrap: nowrap;
+  transition: background-color 0.3s;
+  cursor: pointer;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #f95707;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #e1cdcd;
+  }
+}
+
+.active {
+  background-color: #f95707;
+  color: #fff;
+
+  &:hover {
+    background-color: #fff;
+    color: #f95707;
+  }
+}
+
+.mainBtn {
+  border-radius: 100px;
+  padding: 12px 32px;
+  width: 199px;
+  height: 46px;
+  background-color: #f95707;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-wrap: nowrap;
+  &:hover {
+    background-color: #fff;
+    color: #f95707;
+    border: 1px solid #f95707;
+  }
+}

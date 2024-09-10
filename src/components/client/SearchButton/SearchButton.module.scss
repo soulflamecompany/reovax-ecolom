@@ -1,0 +1,29 @@
+.searchButton {
+  display: flex;
+  align-items: center;
+  background-color: #fff7f3;
+  border-radius: 100px;
+  border: none;
+  padding: 12px 28px;
+  width: 215px;
+  height: 46px;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #f95707;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #e1cdcd;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 111, 0, 0.5);
+  }
+}
+
+.text {
+  white-space: nowrap;
+}
